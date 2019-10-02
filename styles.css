@@ -352,8 +352,12 @@ ul {
         height: 304px;
     }
     h1 {
-        font-size: 2em;
+        font-size: 1.8em;
         z-index: 2;
+        color: black;
+        margin-left: -4.5%;
+    }
+    h1 strong {
         color: black;
     }
     .form-email {
@@ -405,6 +409,15 @@ ul {
         text-decoration: underline;
         margin-bottom: .5em;
     }
+    h1 {
+        font-size: 1.4em;
+        z-index: 2;
+        color: black;
+        margin-left: -1%;
+    }
+    .hero {
+        padding: 5em 1em;
+    }
     .project {
         display: block;
     }
@@ -453,8 +466,12 @@ ul {
 
 @media screen and (max-width: 480px) {
     h1 {
-        font-size: 1.5em;
+        font-size: .9em;
         color: black;
+        margin-left: -3%;
+    }
+    .hero {
+        padding: 6em 1em;
     }
     .project-datails {
         width: auto;
@@ -470,10 +487,11 @@ ul {
 
 @media screen and (max-width: 320px) {
     h1 {
-        font-size: 1.2em;
+        font-size: .6em;
         color: black;
+        margin-left: -4%;
     }
     .hero {
-        padding: 2em 1em;
+        padding: 5em 1em;
     }
 }
