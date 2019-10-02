@@ -348,7 +348,8 @@ ul {
         bottom: 0;
         top: 0;
         width: 100%;
-        background-position-x: right;
+        /* background-position-x: right; */
+        height: 304px;
     }
     h1 {
         font-size: 2em;
