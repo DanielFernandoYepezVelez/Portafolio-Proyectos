@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<!-- Tipos De Textos Personalizados -->
+
+<!-- Pagina de iconos gratuitos PGN https://iconos8.es/icons -->
+<!-- Pagina de iconos gratuitos https://icomoon.io/ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollo de una pagina Web">
+    <meta name="keywords" content="DesarrolloWeb, webOnline">
+    <meta name="author" content="Daniel Fernando Yepez Vélez">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daniel Fernando Yepez Vélez</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./Img/internet.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <i class="fas fa-bars burger-button" id="burger-menu"></i>
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <img class="logo" src="./Img/logoDaniel.PNG" height="50" width="100" alt="LogoDaniel">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Skills</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#experiencia">Aprendizaje</a>
+                    </li>
+                    <!-- - Acerca de mi - Experiencia - Skills - Enlaces de: Github y LinkedIn - Enlace con CV en PDF -->
+                    <!-- <li>
+                    <a href="#">Educación</a>
+                </li> -->
+                    <li>
+                        <a class="link" href="#contacto">Trabajemos Juntos</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Hola! Soy <strong>Daniel Yepez </strong> <br /> <strong> Desarrollador Backend </strong> <br />con pasión por el <br> <strong> Aprendizaje Constante </strong></h1>
+            <figure>
+                <img class="hero-image" src="./Img/hero.jpg" width="413" height="304" alt="Hero Principal">
+            </figure>
+        </div>
+    </section>
+    <section class="portfolio" id="portafolio">
+        <div class="container">
+            <h2>Skills (Proyectos Destacados)</h2>
+            <article class="project">
+                <div class="project-datails">
+                    <h3 class="project-title">Vehículo Autonomo</h3>
+                    <h6 class="project-course">Algoritmia / JavaScript / Asyncronismo / HTML5 / CSS </h6>
+                    <p class="project-date"><small><strong>Fecha: </strong>01/08/2019</small></p>
+                    <p class="project-url"><small><strong>Puedes Verlo: </strong><a href="https://danielfernandoyepezvelez.github.io/ProyectoVehiculo/index.html" target="_blank">AQUI</a></small></p>
+                    <p class="project-description">
+                        Un proyecto que cuenta con la funcionalidad de ejecutar las instrucciones paso a paso de la conducción de un vehículo.Este proyecto utiliza el concepto de asyncronismo de JavaScript, estructuras algoritmicas,HTML5 y CSS.Por ultimo, ejecute el deploy con
+                        el servicio de GitHub.
+                    </p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="./Img/vehiculo.PNG" width="400" alt="Proyecto Vehiculo Autonomo">
+                </figure>
+            </article>
+            <article class="project">
+                <div class="project-datails">
+                    <h3 class="project-title">Stock Panaderia MongoDB</h3>
+                    <h6 class="project-course">NodeJS / MongoDB / JavaScript / Handlebars / HTML5 / CSS / Bootstrap </h6>
+                    <p class="project-date"><small><strong>Fecha: </strong>23/09/2019</small></p>
+                    <p class="project-url"><small><strong>Puedes Verlo: </strong><a href="https://daniel-proyecto-inventario-fin.herokuapp.com/" target="_blank"> AQUI</a></small></p>
+                    <p class="project-description">
+                        Un proyecto que cuenta con la funcionalidad de un login y un CRUD completo; utilizando una base de datos NoSQL como lo es mongoDB, además de requerir modulos como passport, express, bcryptjs, mongoose, entre otros. Por ultimo, ejecute el deploy con el
+                        servicio de Heroku y el servicio de MongoAtlas.
+                    </p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="./Img/proyectoMongoDB.PNG" width="350" alt="Proyect Panaderia MongoDB">
+                </figure>
+            </article>
+            <article class="project">
+                <div class="project-datails">
+                    <h3 class="project-title">Stock Panaderia MySQL</h3>
+                    <h6 class="project-course">NodeJS / MySQL / JavaScript / Handlebars / HTML5 / CSS / Bootstrap</h6>
+                    <p class="project-date"><small><strong>Fecha: </strong>29/09/2019</small></p>
+                    <p class="project-url"><small><strong>Puedes Verlo: </strong><a href="https://mysql-proyecto-inventario.herokuapp.com/" target="_blank"> AQUI</a></small></p>
+                    <p class="project-description">
+                        Un proyecto que cuenta con la funcionalidad de un login y un CRUD completo; utilizando una base de datos SQL como lo es MySQL, además de requerir modulos como passport, express, bcryptjs, mysql, entre otros. Por ultimo, ejecute el deploy con el servicio
+                        de Heroku y el servicio de cleverCloud.
+                    </p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="./Img/proyectoMySQL.PNG" width="350" alt="Proyect Panaderia MySQL">
+                </figure>
+            </article>
+        </div>
+    </section>
+    <div class="container">
+        <h2 class="event-list-title">Experiencias De Aprendizaje</h2>
+    </div>
+    <section id="experiencia" class="event-list">
+        <div class="container">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="./Img/experiencia1.jpg" alt="Experiencia image">
+                </figure>
+                <div class="event-datail">
+                    <h3 class="event-title">Viajes Espaciales</h3>
+                    <p class="event-description">Espacio en el cual un astronauto compartió la experiencia de vivir en orbita por varios meses</p>
+                    <a class="event-url" href="https://www.parqueexplora.org" target="_blank">¡Informate!</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="./Img/experiencia2.jpg" alt="Experiencia image">
+                </figure>
+                <div class="event-datail">
+                    <h3 class="event-title">Platzi Tallks Medellin</h3>
+                    <p class="event-description">Compartir conocimientos y experiencias con la comunidad de Platzi En Medellin</p>
+                    <a class="event-url" href="https://platzi.com/" target="_blank">¡Informate!</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="./Img/experiencia3.jpg" alt="Experiencia image">
+                </figure>
+                <div class="event-datail">
+                    <h3 class="event-title">Aplicaciones Móviles(App Inventor)</h3>
+                    <p class="event-description">Conociendo estructuras algoritmicas y los elementos o componentes de la aplicación App Inventor</p>
+                    <a class="event-url" href="http://es.fundaorth.org/" target="_blank">¡Informate!</a>
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="./Img/experiencia4.jpg" alt="Experiencia image">
+                </figure>
+                <div class="event-datail">
+                    <h3 class="event-title">Desarrollado Backend Orientado A JavaScript</h3>
+                    <p class="event-description">Desarrollando habilidades junior en las tecnologias backend que hacen parte del ecosistema de JS</p>
+                    <a class="event-url" href="https://makaia.org/es/inicio/" target="_blank">¡Informate!</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="contact" id="contacto">
+        <div class="container">
+            <form class="form-email" action="./Suscription" method="POST">
+                <h3>¿Creamos Algo Juntos?</h3>
+                <input type="text" name="#" id="#" placeholder="Déjame Tu Email">
+                <!-- <input type="submit" value="Enviar"> -->
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a href="https://twitter.com" target="_blank" class="social-link twitter"></a>
+                <a href="https://github.com/" target="_blank" class="social-link github"></a>
+                <a href="https://instagram.com" target="_blank" class="social-link instagram"></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank" class="social-link linkedin"></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <p>Daniel Fernando Yepez Vélez - 2019</p>
+        </div>
+        <img height="35" width="100" src="./Img/logoDaniel.PNG" alt="imagenFooter">
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
