@@ -1,3 +1,5 @@
+/* Funcionalidad del icono de Hamburgesa */
+
 const ipad = window.matchMedia('screen and (max-width: 767px)');
 const menu = document.querySelector('.menu');
 const btnBurger = document.querySelector('#burger-menu');
