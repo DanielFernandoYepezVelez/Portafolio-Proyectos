@@ -191,10 +191,11 @@ ul {
 
 .maquetaciones {
     display: grid;
+    row-gap: 0.5rem;
     column-gap: 0.5rem;
     align-content: center;
     justify-content: center;
-    border: #056ff0 solid 2px;
+    /* border: #056ff0 solid 2px; */
     grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
 }
 
@@ -202,6 +203,7 @@ ul {
     height: 60vh;
     max-width: 100%;
     object-fit: cover;
+    border: 1px solid gray;
 }
 
 
@@ -261,7 +263,8 @@ ul {
     height: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     flex-wrap: wrap;
 }
 
