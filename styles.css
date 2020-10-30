@@ -13,6 +13,10 @@ background gris = #1b2127
 azul = #026ff0
 */
 
+html {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Source Sans Pro', Arial, sans-serif;
 }
@@ -40,7 +44,7 @@ h1 strong {
 
 h2 {
     color: #056ff0;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: 'Source Sans Pro', Arial, sans-serif;
     font-weight: 600;
     font-size: 24px;
@@ -129,16 +133,16 @@ ul {
 }
 
 .project {
-    border: 1px solid gray;
-    border-radius: 10px;
     margin: 10px;
-    margin-bottom: 15px;
     padding: 20px;
-    background-color: white;
     display: flex;
+    /* flex-wrap: wrap; */
+    border-radius: 10px;
+    margin-bottom: 15px;
     align-items: center;
+    border: 1px solid gray;
+    background-color: white;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .project-title {
@@ -168,7 +172,12 @@ ul {
 }
 
 .project-imageContainer {
-    width: 50%;
+    display: grid;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(20px, 150px));
 }
 
 
@@ -176,11 +185,29 @@ ul {
 
 .project-imageContainer img {
     max-width: 100%;
+    min-height: 55px;
+    object-fit: cover;
 }
 
-.project-image {
-    border-radius: 5px;
+.maquetaciones {
+    display: grid;
+    column-gap: 0.5rem;
+    align-content: center;
+    justify-content: center;
+    border: #056ff0 solid 2px;
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
 }
+
+.maquetaciones img {
+    height: 60vh;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+/* .project-image {
+    border-radius: 5px;
+} */
 
 .event-list-title {
     margin-left: 20px;
