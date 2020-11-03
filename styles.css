@@ -192,6 +192,9 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+    .burger-button {
+        display: none;
+    }
     .container__elements {
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     }
