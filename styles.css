@@ -176,6 +176,10 @@ ul {
     object-fit: cover;
 }
 
+#maquetaciones {
+    margin-bottom: 15px;
+}
+
 .container__elements {
     display: grid;
     row-gap: 0.8rem;
@@ -246,6 +250,12 @@ ul {
 @media screen and (min-width: 425px) {
     .event-list-title {
         margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .event-list-title {
+        margin-bottom: 20px;
     }
 }
 
