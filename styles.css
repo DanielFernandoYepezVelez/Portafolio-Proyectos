@@ -189,6 +189,7 @@ ul {
     max-width: 100%;
     object-fit: cover;
     border-radius: 10px;
+    border: solid 1px gray;
 }
 
 @media screen and (min-width: 768px) {
@@ -196,6 +197,7 @@ ul {
         display: none;
     }
     .container__elements {
+        row-gap: 0.5rem;
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     }
 }
@@ -250,8 +252,9 @@ ul {
     margin: 1%;
     width: 48%;
     flex-shrink: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: 10px;
+    border: solid 1px gray;
     background-color: #f4fbff;
 }
 
@@ -259,6 +262,7 @@ ul {
     width: 480px;
     height: 200px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .event-datail {
