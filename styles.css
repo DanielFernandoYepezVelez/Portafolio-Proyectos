@@ -185,6 +185,7 @@ ul {
     row-gap: 0.8rem;
     column-gap: 0.5rem;
     border-radius: 10px;
+    justify-content: center;
     grid-template-columns: 100%;
 }
 
